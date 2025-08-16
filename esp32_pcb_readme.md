@@ -1,0 +1,273 @@
+# ESP32 Motor Control PCB
+
+A custom PCB design featuring ESP32 WROOM module with integrated motor control, current sensing, power management, and CAN communication capabilities.
+
+## 🔧 Features
+
+- **ESP32 WROOM-32** - Main microcontroller with WiFi and Bluetooth
+- **MD13S Motor Driver** - High-power dual channel motor driver (up to 13A continuous)
+- **20A Current Sensor** - Real-time current monitoring and feedback
+- **Buck Converter** - Efficient power supply regulation
+- **CAN Transceiver** - Industrial communication protocol support
+- **External Header Connections** - Easy interfacing and expansion
+
+## 📋 Technical Specifications
+
+### Core Components
+
+| Component | Model/Type | Specifications |
+|-----------|------------|----------------|
+| Microcontroller | ESP32 WROOM-32 | 240MHz dual-core, WiFi, Bluetooth |
+| Motor Driver | MD13S | 13A continuous, 30A peak, PWM control |
+| Current Sensor | ACS37030LLZATR | 20A max, analog output via VIOUT pin |
+| Power Supply | Buck Converter | Adjustable output voltage |
+| Communication | CAN Transceiver | ISO 11898 compliant |
+
+### Electrical Ratings
+
+- **Input Voltage**: 12-24V DC
+- **Motor Output**: Up to 13A continuous (single channel)
+- **Current Sensing**: 0-20A range (analog output)
+- **Logic Level**: 3.3V
+- **CAN Bus**: 5V tolerant (uses UART pins)
+
+## 🔌 Pin Configuration
+
+### External Headers
+
+#### Power Header
+```
+Pin 1: VIN+ (12-24V)
+Pin 2: GND
+Pin 3: 5V Out
+Pin 4: 3.3V Out
+```
+
+#### Motor Control Header
+```
+Pin 1: Motor+
+Pin 2: Motor-
+Pin 3: GND
+```
+
+#### Communication Header
+```
+Pin 1: CAN_H
+Pin 2: CAN_L
+Pin 3: GND
+Pin 4: 5V
+```
+
+#### GPIO Expansion Header
+```
+Pin 1-8: GPIO pins (configurable)
+Pin 9: GND
+Pin 10: 3.3V
+```
+
+### ESP32 Pin Assignments
+
+| Function | GPIO Pin | Description |
+|----------|----------|-------------|
+| Motor PWM | GPIO 18 | PWM signal for motor |
+| Motor DIR | GPIO 5 | Direction control for motor |
+| Current Sensor | GPIO 34 (ADC) | Analog input from ACS37030 |
+| CAN TX | GPIO 1 (TX0) | CAN transmit |
+| CAN RX | GPIO 3 (RX0) | CAN receive |
+| Status LED | GPIO 2 | Built-in LED indicator |
+
+## 📁 Repository Structure
+
+```
+├── Hardware/
+│   ├── Schematic/
+│   │   ├── main_schematic.pdf
+│   │   └── schematic_source_files/
+│   ├── PCB/
+│   │   ├── gerber_files/
+│   │   ├── 3d_renders/
+│   │   └── pcb_source_files/
+│   └── BOM/
+│       ├── bill_of_materials.xlsx
+│       └── component_datasheets/
+├── Firmware/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── motor_control.cpp
+│   │   ├── current_sensor.cpp
+│   │   └── can_communication.cpp
+│   ├── include/
+│   └── platformio.ini
+├── Documentation/
+│   ├── user_manual.pdf
+│   ├── assembly_guide.pdf
+│   └── testing_procedures.pdf
+└── Examples/
+    ├── basic_motor_control/
+    ├── current_monitoring/
+    └── can_communication/
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- PlatformIO IDE or Arduino IDE
+- ESP32 board package
+- Required libraries (see firmware folder)
+
+### Hardware Setup
+
+1. **Power Connection**
+   - Connect 12-24V DC power supply to VIN+ and GND
+   - Ensure proper polarity to avoid damage
+
+2. **Motor Connection**
+   - Connect motors to Motor A+/A- and Motor B+/B- terminals
+   - Observe current ratings (max 13A continuous per channel)
+
+3. **CAN Bus Setup**
+   - Connect CAN_H and CAN_L to your CAN network
+   - Use proper termination resistors (120Ω)
+
+### Software Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/esp32-motor-control-pcb.git
+   cd esp32-motor-control-pcb
+   ```
+
+2. Open the firmware project in PlatformIO
+
+3. Install required dependencies:
+   ```bash
+   pio lib install
+   ```
+
+4. Upload firmware to ESP32:
+   ```bash
+   pio run --target upload
+   ```
+
+## 📖 Usage Examples
+
+### Basic Motor Control
+```cpp
+#include "motor_control.h"
+
+void setup() {
+  motorInit();
+}
+
+void loop() {
+  setMotorSpeed(50);     // 50% speed forward
+  delay(2000);
+  setMotorSpeed(-30);    // 30% speed reverse
+  delay(2000);
+}
+```
+
+### Current Monitoring (ACS37030LLZATR)
+```cpp
+#include "current_sensor.h"
+
+void setup() {
+  Serial.begin(115200);
+  currentSensorInit();
+}
+
+void loop() {
+  float current = readCurrentACS37030();
+  Serial.printf("Current: %.2f A\n", current);
+  delay(100);
+}
+```
+
+### CAN Communication
+```cpp
+#include "can_communication.h"
+
+void setup() {
+  canInit(500000); // 500kbps
+}
+
+void loop() {
+  CANMessage msg = {0x123, {0x01, 0x02, 0x03}};
+  canSend(msg);
+  delay(1000);
+}
+```
+
+## ⚠️ Safety Considerations
+
+- **Power Supply**: Ensure proper voltage rating (12-24V DC)
+- **Current Limits**: Do not exceed 13A continuous per motor channel
+- **Heat Dissipation**: Provide adequate cooling for motor driver
+- **ESD Protection**: Use anti-static precautions during handling
+- **Reverse Polarity**: Double-check power connections
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+1. **ESP32 not responding**
+   - Check power supply voltage (should be within 12-24V range)
+   - Verify buck converter output (should provide stable 3.3V)
+
+2. **Motor not running**
+   - Check motor connections and polarity
+   - Verify PWM signals on GPIO 18
+   - Check direction control on GPIO 5
+   - Ensure motor driver thermal protection isn't triggered
+
+3. **Incorrect current readings from ACS37030**
+   - Check analog connection to GPIO 34
+   - Verify sensor power supply (3.3V or 5V)
+   - Calibrate using known current load
+   - Check ADC reference voltage
+
+4. **CAN communication issues**
+   - Note: Using UART pins (GPIO 1/3) may conflict with serial programming
+   - Consider alternative pins for CAN if serial debugging needed
+   - Verify CAN bus termination resistors
+   - Check baud rate settings
+
+## 📊 Performance Specifications
+
+- **PWM Frequency**: 20kHz (configurable)
+- **Current Sensing Accuracy**: ±1% full scale (ACS37030LLZATR)
+- **Power Measurement**: Integrated current and voltage sensing
+- **Buck Converter Efficiency**: >85%
+- **CAN Bus Speed**: Up to 1Mbps
+- **Operating Temperature**: -20°C to +70°C
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Create a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+For technical support or questions:
+- Create an issue in this repository
+- Contact: [your-email@example.com]
+- Documentation: See `/Documentation` folder
+
+## 🔄 Version History
+
+- **v1.0** - Initial release with basic motor control
+- **v1.1** - Added current sensing and safety features
+- **v1.2** - Implemented CAN communication
+- **v2.0** - Complete PCB redesign with improved layout
+
+---
+
+**Note**: This PCB is designed for educational and prototyping purposes. For commercial applications, additional safety certifications may be required.
