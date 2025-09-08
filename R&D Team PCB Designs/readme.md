@@ -16,6 +16,10 @@ Research and develop fully custom, efficient, and compact PCB solutions for adva
 ### Schematic Overview
 ![PDN Schematic](Power%20Distribution/SCH_Schematic1_1-P1_2025-08-20.png)
 
+### Integrated Drive PCB
+![Integrated Drive PCB schematic](ESP32%20Custom%20Boards/ESP32-schematic.jpg)
+*Integrated PCB for drive with CAN*
+
 </div>
 
 ## 🚀 Current Projects
