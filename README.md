@@ -25,6 +25,10 @@ This repository contains PCB designs for various robotic systems including drive
 ![Motor Control PCB](Testing%20Team%20PCB%20Designs/Motor%20Control/PCB_3D_view.png)
 *Rover Motor Control with ESP32 & CAN*
 
+### Integrated Drive PCB
+![Integrated Drive PCB schematic](R&D%20Team%20PCB%20Designs/ESP32%20Custom%20Boards/ESP32-schematic.jpg)
+*Integrated PCB for drive with CAN*
+
 </td>
 </tr>
 </table>
