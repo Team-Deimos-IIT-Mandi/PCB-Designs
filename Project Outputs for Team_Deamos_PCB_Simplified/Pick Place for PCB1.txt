@@ -1,0 +1,45 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Team_Deamos_PCB_Simplified\Project Outputs for Team_Deamos_PCB_Simplified\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       27-08-25
+Time:       19:02
+Revision:   aaf09b9c64034fa3528e3b5ab822373f56d5d07d
+Variant:    No variations
+Units used: mil
+
+Designator Comment                 Layer    Footprint             Center-X(mil) Center-Y(mil) Rotation Description                                                                                                      
+R8         RC0603FR-1010KL         TopLayer RESC1608X55X25LL10T15 5450.000      1865.000      180      "Chip Resistor, 10 kOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"                
+R7         RC0603FR-1010KL         TopLayer RESC1608X55X25LL10T15 6760.590      1610.000      0        "Chip Resistor, 10 kOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"                
+R6         RC0603FR-1010KL         TopLayer RESC1608X55X25LL10T15 5360.000      1865.000      180      "Chip Resistor, 10 kOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"                
+R5         RC0603FR-1010KL         TopLayer RESC1608X55X25LL10T15 6850.590      1610.000      0        "Chip Resistor, 10 kOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"                
+R4         WSR32L000FEA            TopLayer RESM11569X253N        5705.000      1740.000      90       "Fixed Resistor, Metal Strip, 3W, 0.002ohm, 0.077V, 1% +/-Tol, 600ppm/Cel, Surface Mount, 4527"                  
+R3         WSR32L000FEA            TopLayer RESM11569X253N        6525.000      1735.000      270      "Fixed Resistor, Metal Strip, 3W, 0.002ohm, 0.077V, 1% +/-Tol, 600ppm/Cel, Surface Mount, 4527"                  
+J1         TB005-762-02BE          TopLayer CUI_TB005-762-02BE    6050.000      1755.000      90       "Barrier Strip Terminal Block"                                                                                   
+CS2        INA181A1IDBVR           TopLayer FP-DBV0006A-MFG       5390.000      1750.000      90       "IC CURR SENSE 1 CIRCUIT SOT23-6"                                                                                
+CS1        INA181A3IDBVR           TopLayer SOT95P280X145-6N      6805.000      1720.000      270      "Operational Amplifier, 1 Func, 500uV Offset-Max, PDSO6"                                                         
+C10        CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        5370.000      1635.000      0        "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+C9         CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        6820.590      1840.000      180      "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+C8         CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        5305.000      1805.000      180      "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+C7         CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        5400.000      1925.000      270      "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+C6         CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        6805.000      1550.000      90       "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+C5         CL05A104KA5NNNC         TopLayer FP-CL278-IPC_C        6910.591      1665.000      0        "Cap Ceramic 100nF 25V X5R ±10% SMD 0402 +85°C Paper T/R"                                                        
+U1         TCAN332GDCNR            TopLayer FP-DCN0008A-IPC_A     6030.000      3720.000      0        "IC TRANSCEIVER 1/1 SOT23-8"                                                                                     
+R2         ERJ-2RKF60R4X           TopLayer FP-ERJ2RK-IPC_A       6170.000      3770.000      270      "RES SMD 60.4 OHM 1% 1/10W 0402"                                                                                 
+R1         ERJ-2RKF60R4X           TopLayer FP-ERJ2RK-IPC_A       6170.000      3675.000      90       "RES SMD 60.4 OHM 1% 1/10W 0402"                                                                                 
+P7         Header-Female-2.54_1x4  TopLayer 4_PIN_CONNECTOR_MALE  5315.000      2155.000      0        ""                                                                                                               
+P6         Header-Male-2.54_1x1    TopLayer PCBCOMPONENT_1        3929.253      1873.819      270      ""                                                                                                               
+P5         Header-Male-2.54_1x1    TopLayer PCBCOMPONENT_1        3248.686      1873.819      270      ""                                                                                                               
+P4         Header-Male-2.54_1x1    TopLayer PCBCOMPONENT_1        3929.253      3434.053      270      ""                                                                                                               
+P3         Header-Male-2.54_1x1    TopLayer PCBCOMPONENT_1        3248.686      3434.053      270      ""                                                                                                               
+P2         Header-Female-2.54_1x20 TopLayer AMPHENOL_76341-322LF  5525.000      2555.000      180      ""                                                                                                               
+P1         Header-Female-2.54_1x20 TopLayer AMPHENOL_76341-322LF  5525.000      3455.000      180      ""                                                                                                               
+J4         691137710002            TopLayer 691137710002          6690.158      3710.000      90       ""                                                                                                               
+J2         M20-9990246             TopLayer FP-M20-9990246-MFG    6485.000      3715.000      270      "CONN HEADER VERT 2POS 2.54MM"                                                                                   
+D1         ESD2CAN24DBZRQ1         TopLayer SOT95P237X112-3N      6336.535      3715.000      180      "Automotive, dual, 3-pF, ±24-V, ±30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150" 
+C4         CL05C101JB5NNNC         TopLayer FP-CL05-MFG           6270.000      3670.000      270      "CAP CER 100PF 50V C0G/NP0 0402"                                                                                 
+C3         CL05C101JB5NNNC         TopLayer FP-CL05-MFG           6270.000      3770.650      90       "CAP CER 100PF 50V C0G/NP0 0402"                                                                                 
+C2         CL05B104KP5NNNC         TopLayer FP-CL17-IPC_C         5890.000      3720.000      270      "Cap Ceramic 100nF 10V X7R ±10% SMD 0402 +125°C Paper T/R"                                                       
+C1         CC0402KRX7R6BB472       TopLayer FP-CC0402-MFG         6225.000      3715.000      180      "CC0402 4.7 nF X7R 10.00% 10 V"                                                                                  
