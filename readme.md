@@ -21,7 +21,7 @@ The design philosophy emphasizes robustness, efficiency, and modularity. This RE
 
 The board is architected around a central ESP32-S3 microcontroller. A two-stage power delivery network provides clean, stable power to all components. The system integrates high-current motor driving, precision current sensing, high-resolution encoder feedback, and CAN bus communication.
 
-![System Architecture Diagram](./attachments/Mermaid%20Chart%20-%20Create%20complex,%20visual%20diagrams%20with%20text.%20A%20smarter%20way%20of%20creating%20diagrams.-2025-09-15-123648.svg)
+![System Architecture Diagram](./attachments/Mermaid%20Chart%20-%20Create%20complex,%20visual%20diagrams%20with%20text.%20A%20smarter%20way%20of%20creating%20diagrams.-2025-09-15-125700.svg)
 
 ### 3D PCB Render
 
