@@ -1,3 +1,5 @@
+# Ignore History folder
+History/
 # PCB Design Files
 *.bak
 *.kicad_pcb-bak
