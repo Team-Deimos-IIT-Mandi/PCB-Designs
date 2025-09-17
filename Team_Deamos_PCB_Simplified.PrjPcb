@@ -103,91 +103,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CEFSFOXP
 
 [Document4]
-DocumentPath=Schlib1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BWVKGRCR
-
-[Document5]
-DocumentPath=PcbLib1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LOKUTCAS
-
-[Document6]
-DocumentPath=PCB1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SPJFQQMM
-
-[Document7]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=Team_Deamos_PCB_Simplified.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
 DocumentPath=Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,75 +119,181 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZALQWREO
 
+[Document5]
+DocumentPath=Schlib1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BWVKGRCR
+
+[Document6]
+DocumentPath=PcbLib1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LOKUTCAS
+
+[Document7]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SPJFQQMM
+
+[Document8]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=Team_Deamos_PCB_Simplified.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=PCB1_rev2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XGGNWOFG
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.EXTREP
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\Design Rule Check - PCB1_rev2.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBL
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBO
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBP
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBS
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GM
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GP1
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GM
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GP2
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTL
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTO
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTP
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTS
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.REP
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\PCB1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\Pick Place for PCB1.csv
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\PCB1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
+DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\Pick Place for PCB1.csv
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Team_Deamos_PCB_Simplified\Pick Place for PCB1.txt
 DItemRevisionGUID=
 
