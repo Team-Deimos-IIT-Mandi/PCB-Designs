@@ -69,12 +69,12 @@ To use the variable outputs, flip switch to the ON position.
 
 Before connecting a device, use a multimeter to measure the voltage on output of the moudle
 
-Carefully turn the potentiometer RV1 to set your desired voltage (e.g., 3.3V, 1.8V).
+Carefully turn the potentiometer to set your desired voltage (e.g., 3.3V, 1.8V).
 
 Once the voltage is set, you can connect your device.
 
-Note
+## Note
 If you want a higher current in 5V outputs, carefully replace xl4015 with xl4016 which provides 7A current and has the same shape and footprint
 
-The prices listed in the BOM are approximate
+The prices listed in the BOM are approximate.
 
