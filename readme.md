@@ -27,7 +27,7 @@ The board is architected around a central ESP32-S3 microcontroller. A two-stage 
 
 A 3D render of the custom PCB, showing key connectors and component placements:
 
-![3D PCB Render](./attachments/3d_pcb.jpg)
+![3D PCB Render](./attachments/pcb.png)
 
 ---
 
