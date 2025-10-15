@@ -1,7 +1,7 @@
 Robust 24V/5V Power Distribution Board
 A compact, 4-layer Power Distribution Board (PDB) designed for robust and reliable power management. This board takes a single DC input(max voltage 36V, max current 100A) and provides multiple fused outputs at 24V and 5V, with comprehensive protection features suit.
 
-![alt text](](https://github.com/naman-bhatia-2006/PCB-Designs/blob/main/Power%20Distribution%20Board/3D_Image_PDN.png?raw=true))
+![Alt text](3D_Image_PDN.png)
 
 ## Features ⚡️
 Dual Voltage Rails: Provides both high-power 24V and low-power 5V outputs.
